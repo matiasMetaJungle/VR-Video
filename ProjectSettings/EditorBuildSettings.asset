@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/Meta XR Interaction SDK Essentials/67.0.0/UnityXR Integration/Scenes/UnityXRComprehensiveRigExample.unity
+    guid: 1c3839a1070e4a14ab46e590c49bec68
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
@@ -12,4 +15,5 @@ EditorBuildSettings:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d14c64c00feb7a940ae1be06da971aa5, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 22e503d735ec41641996bbbe175e1f48, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 50affb35eec66ba41a3e91506eb505f4, type: 2}
   m_UseUCBPForAssetBundles: 0
