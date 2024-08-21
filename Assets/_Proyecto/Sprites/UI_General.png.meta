@@ -271,7 +271,7 @@ TextureImporter:
       name: UI_General_6
       rect:
         serializedVersion: 2
-        x: 528
+        x: 515
         y: 1210
         width: 53
         height: 38
@@ -293,7 +293,7 @@ TextureImporter:
       name: UI_General_7
       rect:
         serializedVersion: 2
-        x: 625
+        x: 614
         y: 1211
         width: 26
         height: 37
@@ -315,7 +315,7 @@ TextureImporter:
       name: UI_General_8
       rect:
         serializedVersion: 2
-        x: 690
+        x: 679
         y: 1196
         width: 68
         height: 66
@@ -337,7 +337,7 @@ TextureImporter:
       name: UI_General_9
       rect:
         serializedVersion: 2
-        x: 783
+        x: 771
         y: 1204
         width: 51
         height: 51
@@ -359,7 +359,7 @@ TextureImporter:
       name: UI_General_10
       rect:
         serializedVersion: 2
-        x: 859
+        x: 848
         y: 1193
         width: 70
         height: 72
@@ -381,7 +381,7 @@ TextureImporter:
       name: UI_General_11
       rect:
         serializedVersion: 2
-        x: 945
+        x: 933
         y: 1195
         width: 68
         height: 68
@@ -535,7 +535,7 @@ TextureImporter:
       name: UI_General_18
       rect:
         serializedVersion: 2
-        x: 523
+        x: 512
         y: 1109
         width: 62
         height: 62
@@ -557,7 +557,7 @@ TextureImporter:
       name: UI_General_19
       rect:
         serializedVersion: 2
-        x: 618
+        x: 606
         y: 1121
         width: 42
         height: 42
@@ -579,8 +579,8 @@ TextureImporter:
       name: UI_General_20
       rect:
         serializedVersion: 2
-        x: 693
-        y: 1111
+        x: 681
+        y: 1110
         width: 61
         height: 62
       alignment: 0
@@ -601,7 +601,7 @@ TextureImporter:
       name: UI_General_21
       rect:
         serializedVersion: 2
-        x: 778
+        x: 766
         y: 1111
         width: 62
         height: 62
@@ -623,7 +623,7 @@ TextureImporter:
       name: UI_General_22
       rect:
         serializedVersion: 2
-        x: 861
+        x: 850
         y: 1108
         width: 66
         height: 68
@@ -645,7 +645,7 @@ TextureImporter:
       name: UI_General_23
       rect:
         serializedVersion: 2
-        x: 955
+        x: 944
         y: 1108
         width: 47
         height: 68
@@ -1041,7 +1041,7 @@ TextureImporter:
       name: UI_General_47
       rect:
         serializedVersion: 2
-        x: 527
+        x: 515
         y: 945
         width: 54
         height: 53
@@ -1063,7 +1063,7 @@ TextureImporter:
       name: UI_General_48
       rect:
         serializedVersion: 2
-        x: 605
+        x: 592
         y: 947
         width: 68
         height: 51
@@ -1085,7 +1085,7 @@ TextureImporter:
       name: UI_General_51
       rect:
         serializedVersion: 2
-        x: 781
+        x: 769
         y: 939
         width: 57
         height: 66
@@ -1635,8 +1635,8 @@ TextureImporter:
       name: UI_General_80
       rect:
         serializedVersion: 2
-        x: 360
-        y: 85
+        x: 391
+        y: 84
         width: 491
         height: 273
       alignment: 0
@@ -1745,7 +1745,7 @@ TextureImporter:
       name: UI_General_49
       rect:
         serializedVersion: 2
-        x: 690
+        x: 679
         y: 943
         width: 67
         height: 57
@@ -1767,7 +1767,7 @@ TextureImporter:
       name: UI_General_53
       rect:
         serializedVersion: 2
-        x: 865
+        x: 854
         y: 943
         width: 57
         height: 57
@@ -1789,9 +1789,9 @@ TextureImporter:
       name: UI_General_55
       rect:
         serializedVersion: 2
-        x: 950
+        x: 941
         y: 944
-        width: 57
+        width: 52
         height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
