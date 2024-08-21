@@ -23040,7 +23040,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://videos.metajungle.cl/VRVideosapp/3D.mp4
+  m_Url: https://videos.metajungle.cl/VRVideosapp/Claudio-2K-158bits-H264-Nativo.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -26118,31 +26118,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 801370093901196944, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 801370093901196944, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1950619409717432261, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1950619409717432261, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2735513863302367888, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2735513863302367888, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2735513863302367888, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2735513863302367888, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26294,15 +26294,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5573844409249772345, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5573844409249772345, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5573844409249772345, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5573844409249772345, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26315,6 +26315,10 @@ PrefabInstance:
     - target: {fileID: 8796719674846833395, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
       propertyPath: m_Name
       value: UI_VideoPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796719674846833395, guid: d533f650431c87c4494c1d3c2d7a0538, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
