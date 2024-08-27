@@ -119,3 +119,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 29704
+  packageName: Youtube Video Player + Youtube API
+  packageVersion: 8.8f
+  assetPath: Assets/LightShaft/Meshes/EquiEsphere.obj
+  uploadId: 676956

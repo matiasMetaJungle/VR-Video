@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/LightShaft/Scenes/Demo6 - 360 playback.unity
+    guid: 9ffbf2b6c9daf4444b0efdd6691df695
   - enabled: 0
     path: Assets/Samples/Meta XR Interaction SDK Essentials/67.0.0/UnityXR Integration/Scenes/UnityXRComprehensiveRigExample.unity
     guid: 1c3839a1070e4a14ab46e590c49bec68
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

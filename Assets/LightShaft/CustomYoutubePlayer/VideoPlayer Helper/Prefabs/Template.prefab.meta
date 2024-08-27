@@ -8,3 +8,10 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 29704
+  packageName: Youtube Video Player + Youtube API
+  packageVersion: 8.8f
+  assetPath: Assets/LightShaft/CustomYoutubePlayer/VideoPlayer Helper/Prefabs/Template.prefab
+  uploadId: 676956

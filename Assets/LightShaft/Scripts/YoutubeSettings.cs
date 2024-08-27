@@ -67,6 +67,10 @@ namespace LightShaft.Scripts
         public bool is360;
 
         [Space]
+        [Tooltip("If it is a 180 degree video")]
+        public bool is180;
+
+        [Space]
         [Tooltip("Untick if you want to force a fullscreen mode.")]
         public bool dontForceFullscreen = false;
 
@@ -205,6 +209,7 @@ namespace LightShaft.Scripts
         public Material skyboxMaterial3D;
         public Material skyboxMaterialNormal;
         public Material skyboxMaterial3DSide;
+        public Material Material180;
         private bool loadingFromServer = false;
 
         #region SERVER VARIABLES
@@ -366,6 +371,30 @@ namespace LightShaft.Scripts
                             if (debug)
                                 Debug.Log("Not a 3D");
                             RenderSettings.skybox = skyboxMaterialNormal;
+                            //LoadANon3DVideoFromServer(_videoUrl, _formatCode);
+                            if (!alreadyGotUrls)
+                                UrlsLoaded();
+                        }
+                    }
+                }
+                if (is180)
+                {
+                    if (request.downloadHandler.text.Contains("EQUIRECTANGULAR_THREED_TOP_BOTTOM"))
+                    {
+                        if (debug)
+                            Debug.Log("IS 3D");
+                        RenderSettings.skybox = Material180;
+                        if (!alreadyGotUrls)
+                            UrlsLoaded();
+                    }
+                    else
+                    {
+                        if (!loadingFromServer)
+                        {
+                            loadingFromServer = true;
+                            if (debug)
+                                Debug.Log("Not a 3D");
+                            RenderSettings.skybox = Material180;
                             //LoadANon3DVideoFromServer(_videoUrl, _formatCode);
                             if (!alreadyGotUrls)
                                 UrlsLoaded();

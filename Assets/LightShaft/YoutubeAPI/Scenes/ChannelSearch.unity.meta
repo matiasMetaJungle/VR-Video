@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7478dd20cfdfa6b4582d51f7c61b8b1c
+timeCreated: 1507778861
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 29704
+  packageName: Youtube Video Player + Youtube API
+  packageVersion: 8.8f
+  assetPath: Assets/LightShaft/YoutubeAPI/Scenes/ChannelSearch.unity
+  uploadId: 676956
