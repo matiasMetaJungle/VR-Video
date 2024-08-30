@@ -1479,39 +1479,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &4675534593617579101
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4679416767780217393}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4894928217370337259}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4679416767780217393
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4675534593617579101}
-  - component: {fileID: 4712217802472069093}
-  - component: {fileID: 4712182261223156443}
-  m_Layer: 5
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &4679505896986534707
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,41 +2090,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4712182261223156443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4679416767780217393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &4712217802472069093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4679416767780217393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
 --- !u!114 &4712246487543380783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2456,9 +2388,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 0}
   _events: {fileID: 0}
-  youtubeUrl: https://www.youtube.com/watch?v=ugQLkW6bXV0
-  videoQuality: 2
+  youtubeUrl: https://youtu.be/jOFQtSi14ik
+  videoQuality: 4
   is360: 1
+  is180: 0
   dontForceFullscreen: 0
   autoPlayOnStart: 1
   startFromSecond: 0
@@ -2488,6 +2421,7 @@ MonoBehaviour:
   skyboxMaterial3D: {fileID: 2100000, guid: 88e25b7aa236e584fa7d9805a25aa0be, type: 2}
   skyboxMaterialNormal: {fileID: 2100000, guid: 54f733c95387bca4794bbbe2b1bb5320, type: 2}
   skyboxMaterial3DSide: {fileID: 2100000, guid: f0a7787812f20fa4fbcff6a00f110606, type: 2}
+  Material180: {fileID: 2100000, guid: dfa7937a29e543747b1bc66c297b360d, type: 2}
   forceLocal: 1
   videoTitle: 
   EACMaterial: {fileID: 2100000, guid: 469ae8d9647951444a25fef2584849d1, type: 2}
@@ -2903,7 +2837,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4894967489244639753}
-  - {fileID: 4675534593617579101}
   - {fileID: 4895259790770097647}
   m_Father: {fileID: 4682795965003471747}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
