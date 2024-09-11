@@ -4,44 +4,72 @@ using UnityEngine;
 [CustomEditor(typeof(VideosButtons))]
 public class VideosButtonsEditor : Editor
 {
+    SerializedProperty videoListProp;
+    SerializedProperty buttonPrefabProp;
+    SerializedProperty buttonContainerProp;
+
+    // Definir el array de tipos de video como constante
+    private static readonly string[] videoTypes = { "360", "180", "360 3D", "180 3D", "Standar", "Standar 3D" };
+
+    private void OnEnable()
+    {
+        // Asignamos las propiedades serializadas
+        videoListProp = serializedObject.FindProperty("videoList");
+        buttonPrefabProp = serializedObject.FindProperty("buttonPrefab");
+        buttonContainerProp = serializedObject.FindProperty("buttonContainer");
+    }
+
     public override void OnInspectorGUI()
     {
-        // Referencia al script original
-        VideosButtons script = (VideosButtons)target;
+        // Actualizar el objeto serializado
+        serializedObject.Update();
 
-        // Dibujar el Inspector por defecto para otros campos
-        DrawDefaultInspector();
+        // Dibujar las propiedades del botón
+        EditorGUILayout.PropertyField(buttonPrefabProp, new GUIContent("Button Prefab"));
+        EditorGUILayout.PropertyField(buttonContainerProp, new GUIContent("Button Container"));
 
-        // Título de la sección personalizada
         EditorGUILayout.Space();
         EditorGUILayout.LabelField("Lista de Videos", EditorStyles.boldLabel);
 
-        // Iterar sobre la lista de videos
-        for (int i = 0; i < script.videoList.Count; i++)
+        // Botón para añadir nuevos elementos a la lista
+        if (GUILayout.Button("Añadir Video"))
         {
-            VideosButtons.VideoData video = script.videoList[i];
+            videoListProp.InsertArrayElementAtIndex(videoListProp.arraySize);
+        }
+
+        // Iterar sobre la lista de videos
+        for (int i = 0; i < videoListProp.arraySize; i++)
+        {
+            SerializedProperty video = videoListProp.GetArrayElementAtIndex(i);
+
+            SerializedProperty miniaturas = video.FindPropertyRelative("Miniaturas");
+            SerializedProperty videoUrl = video.FindPropertyRelative("videoUrl");
+            SerializedProperty arrayIdx = video.FindPropertyRelative("arrayIdx");
 
             // Crear una caja plegable para cada elemento
             EditorGUILayout.BeginVertical("box");
             EditorGUILayout.LabelField($"Video {i + 1}", EditorStyles.boldLabel);
 
             // Miniatura
-            video.Miniaturas = (Sprite)EditorGUILayout.ObjectField("Miniatura", video.Miniaturas, typeof(Sprite), allowSceneObjects: false);
+            EditorGUILayout.PropertyField(miniaturas, new GUIContent("Miniatura"));
 
             // URL del video
-            video.videoUrl = EditorGUILayout.TextField("URL del Video", video.videoUrl);
+            EditorGUILayout.PropertyField(videoUrl, new GUIContent("URL del Video"));
 
             // Dropdown para seleccionar el tipo de video
-            video.arrayIdx = EditorGUILayout.Popup("Tipo de Video", video.arrayIdx, video.Tipo);
+            arrayIdx.intValue = EditorGUILayout.Popup("Tipo de Video", arrayIdx.intValue, videoTypes);
+
+            // Botón para eliminar el video
+            if (GUILayout.Button("Eliminar Video"))
+            {
+                videoListProp.DeleteArrayElementAtIndex(i);
+            }
 
             EditorGUILayout.EndVertical(); // Terminar la caja
             EditorGUILayout.Space(); // Espacio entre elementos
         }
 
         // Aplicar los cambios si se han hecho modificaciones
-        if (GUI.changed)
-        {
-            EditorUtility.SetDirty(target);
-        }
+        serializedObject.ApplyModifiedProperties();
     }
 }
