@@ -673,7 +673,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1651851462}
+      - m_Target: {fileID: 1640442062}
         m_TargetAssemblyTypeName: VideosButtons, Assembly-CSharp
         m_MethodName: FilterButtonsByTag
         m_Mode: 5
@@ -1033,7 +1033,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1651851462}
+      - m_Target: {fileID: 1640442062}
         m_TargetAssemblyTypeName: VideosButtons, Assembly-CSharp
         m_MethodName: FilterButtonsByTag
         m_Mode: 5
@@ -10048,7 +10048,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1651851462}
+      - m_Target: {fileID: 1640442062}
         m_TargetAssemblyTypeName: VideosButtons, Assembly-CSharp
         m_MethodName: FilterButtonsByTag
         m_Mode: 5
@@ -12031,6 +12031,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1640442061}
+  - component: {fileID: 1640442062}
   m_Layer: 0
   m_Name: menu Videos
   m_TagString: Untagged
@@ -12054,6 +12055,44 @@ Transform:
   - {fileID: 170446943}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1640442062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640442060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affa7777dbcb3764782a53eace593fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonPrefab: {fileID: 7365517648988897933, guid: 04948d60f562bf1428ca3146e862b240, type: 3}
+  buttonContainer: {fileID: 1865732087}
+  Iconos:
+  - {fileID: -544843356, guid: 178ec8ff140ba9340a84854480be1463, type: 3}
+  - {fileID: 998865854, guid: 178ec8ff140ba9340a84854480be1463, type: 3}
+  - {fileID: 116821211, guid: 178ec8ff140ba9340a84854480be1463, type: 3}
+  - {fileID: 166305895, guid: 178ec8ff140ba9340a84854480be1463, type: 3}
+  videoList:
+  - arrayIdx: 0
+    Tipo: []
+    Miniaturas: {fileID: 21300000, guid: 8fa7a1f43be259d4d8da29941043e05b, type: 3}
+    videoUrl: https://www.youtube.com/watch?v=uo-gv4AAk_s
+    videoTag: Sur
+  - arrayIdx: 0
+    Tipo: []
+    Miniaturas: {fileID: 21300000, guid: a080e266b6af89a49a47945cb7db2a6c, type: 3}
+    videoUrl: https://www.youtube.com/watch?v=7WWGaiTCOJQ
+    videoTag: Norte
+  youtube: {fileID: 0}
+  youtubeSettings: {fileID: 0}
+  toggle360: {fileID: 1120582111}
+  toggle180: {fileID: 1648705859}
+  toggle3603D: {fileID: 1794438427}
+  toggle1803D: {fileID: 780536364}
+  toggleStandar: {fileID: 1840272325}
+  toggleStandar3D: {fileID: 106498088}
 --- !u!1 &1641254432
 GameObject:
   m_ObjectHideFlags: 0
@@ -12230,7 +12269,6 @@ GameObject:
   - component: {fileID: 1651851459}
   - component: {fileID: 1651851461}
   - component: {fileID: 1651851460}
-  - component: {fileID: 1651851462}
   m_Layer: 5
   m_Name: Selector de Videos360
   m_TagString: Untagged
@@ -12298,44 +12336,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 1
---- !u!114 &1651851462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651851458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: affa7777dbcb3764782a53eace593fed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonPrefab: {fileID: 7365517648988897933, guid: 04948d60f562bf1428ca3146e862b240, type: 3}
-  buttonContainer: {fileID: 1865732087}
-  Iconos:
-  - {fileID: -544843356, guid: 178ec8ff140ba9340a84854480be1463, type: 3}
-  - {fileID: 998865854, guid: 178ec8ff140ba9340a84854480be1463, type: 3}
-  - {fileID: 116821211, guid: 178ec8ff140ba9340a84854480be1463, type: 3}
-  - {fileID: 166305895, guid: 178ec8ff140ba9340a84854480be1463, type: 3}
-  videoList:
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 8fa7a1f43be259d4d8da29941043e05b, type: 3}
-    videoUrl: https://www.youtube.com/watch?v=uo-gv4AAk_s
-    videoTag: Sur
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: a080e266b6af89a49a47945cb7db2a6c, type: 3}
-    videoUrl: https://www.youtube.com/watch?v=7WWGaiTCOJQ
-    videoTag: Norte
-  youtube: {fileID: 0}
-  youtubeSettings: {fileID: 0}
-  toggle360: {fileID: 1120582111}
-  toggle180: {fileID: 1648705859}
-  toggle3603D: {fileID: 1794438427}
-  toggle1803D: {fileID: 780536364}
-  toggleStandar: {fileID: 1840272325}
-  toggleStandar3D: {fileID: 106498088}
 --- !u!1 &1665173464
 GameObject:
   m_ObjectHideFlags: 0
