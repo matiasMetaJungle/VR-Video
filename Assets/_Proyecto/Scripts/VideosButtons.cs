@@ -8,7 +8,7 @@ public class VideosButtons : MonoBehaviour
     public class VideoData
     {
         [HideInInspector]
-        public int arrayIdx = 0;
+        public int arrayIdx = 0; // Índice que corresponde al tipo de video seleccionado
         [HideInInspector]
         public string[] Tipo = new string[] { "360", "180", "360 3D", "180 3D", "Standar", "Standar 3D" };
 
@@ -16,8 +16,11 @@ public class VideosButtons : MonoBehaviour
         [Tooltip("Miniatura del video que se mostrará en el botón.")]
         public Sprite Miniaturas; // Miniatura que se verá en el botón
 
-        [Tooltip("URL que se aplica al youtube.")]
+        [Tooltip("URL que se aplica al YouTube.")]
         public string videoUrl;  // URL del video
+
+        [Tooltip("Tag personalizado para categorizar el video.")]
+        public string videoTag;  // Tag que se puede asignar a cada video
     }
 
     [Header("Configuración del Botón")]
@@ -28,15 +31,33 @@ public class VideosButtons : MonoBehaviour
     public Transform buttonContainer; // Contenedor donde se instanciarán los botones
 
     [Header("Iconos Tipo Video")]
-    [SerializeField] public Sprite[] Iconos;
+    [SerializeField] public Sprite[] Iconos; // Array de iconos para cada tipo de video
 
     [Space(10)]
     [Header("Lista de Videos")]
     [Tooltip("Lista que contiene las miniaturas y URLs de los videos.")]
-    public List<VideoData> videoList = new List<VideoData>(); // Lista de videos (miniaturas y URLs)
+    public List<VideoData> videoList = new List<VideoData>(); // Lista de videos (miniaturas, URLs y tipos)
+
+    [Header("Filtros de Tipo de Video")]
+    public Toggle toggle360;
+    public Toggle toggle180;
+    public Toggle toggle3603D;
+    public Toggle toggle1803D;
+    public Toggle toggleStandar;
+    public Toggle toggleStandar3D;
+
+    private string currentTag = "";  // Almacenar el tag actual que está filtrado
 
     void Start()
     {
+        // Agregar listeners a los toggles para que actualicen los botones al cambiar
+        toggle360.onValueChanged.AddListener(delegate { FilterButtons(); });
+        toggle180.onValueChanged.AddListener(delegate { FilterButtons(); });
+        toggle3603D.onValueChanged.AddListener(delegate { FilterButtons(); });
+        toggle1803D.onValueChanged.AddListener(delegate { FilterButtons(); });
+        toggleStandar.onValueChanged.AddListener(delegate { FilterButtons(); });
+        toggleStandar3D.onValueChanged.AddListener(delegate { FilterButtons(); });
+
         GenerateButtons();
     }
 
@@ -56,8 +77,9 @@ public class VideosButtons : MonoBehaviour
 
             // Buscar el Image específico del hijo llamado "Miniatura"
             Transform miniaturaTransform = newButton.transform.Find("Miniatura");
-            Transform TipoVideoLogo = newButton.transform.Find("Image Icon");
+            Transform tipoVideoLogoTransform = newButton.transform.Find("Image Icon");
 
+            // Asignar miniatura al botón
             if (miniaturaTransform != null)
             {
                 Image miniaturaImage = miniaturaTransform.GetComponent<Image>();
@@ -66,70 +88,79 @@ public class VideosButtons : MonoBehaviour
                     miniaturaImage.sprite = video.Miniaturas;
                 }
             }
-            else
-            {
-                Debug.LogWarning("El hijo 'Miniatura' no se encontró en el botón.");
-            }
 
-            if (TipoVideoLogo != null)
+            // Asignar icono según el tipo de video
+            if (tipoVideoLogoTransform != null)
             {
-                Image iconImage = TipoVideoLogo.GetComponent<Image>();
+                Image iconImage = tipoVideoLogoTransform.GetComponent<Image>();
                 if (iconImage != null)
                 {
-                    // Asegúrate de que Tipo tenga al menos un elemento
-                    if (video.Tipo.Length > 0)
+                    // Acceder al tipo de video basado en arrayIdx y asignar el icono adecuado
+                    int tipoIdx = video.arrayIdx; // Usar arrayIdx para obtener el tipo correcto
+                    if (tipoIdx >= 0 && tipoIdx < Iconos.Length)
                     {
-                        string tipoVideo = video.Tipo[0]; // Usar el primer elemento del arreglo Tipo
-                        switch (tipoVideo)
-                        {
-                            case "360":
-                                iconImage.sprite = Iconos[0];
-                                break;
-                            case "180":
-                                iconImage.sprite = Iconos[1];
-                                break;
-                            case "360 3D":
-                                iconImage.sprite = Iconos[2];
-                                break;
-                            case "180 3D":
-                                iconImage.sprite = Iconos[3];
-                                break;
-                            case "Standar":
-                                iconImage.sprite = Iconos[4];
-                                break;
-                            case "Standar 3D":
-                                iconImage.sprite = Iconos[5];
-                                break;
-                            default:
-                                Debug.LogWarning($"Tipo de video desconocido: {tipoVideo}");
-                                break;
-                        }
+                        iconImage.sprite = Iconos[tipoIdx];
                     }
-                    else
-                    {
-                        Debug.LogWarning("El arreglo Tipo está vacío en el video.");
-                    }
-                }
-                else
-                {
-                    Debug.LogWarning("El componente Image no se encontró en 'Image Icon'.");
                 }
             }
 
             // Configurar el botón y su funcionalidad
             Button button = newButton.GetComponent<Button>();
             string url = video.videoUrl; // Capturar la URL en una variable local para evitar problemas de cierre
+            string tag = video.videoTag; // Capturar el tag del video
 
             button.onClick.AddListener(() => OpenVideo(url));
+
+            // Desactivar el botón si el tipo de video no coincide con los toggles activos
+            if (!IsTypeActive(video.arrayIdx))
+            {
+                newButton.SetActive(false);
+            }
         }
     }
 
+    // Función que chequea si un tipo de video está activo según los toggles
+    bool IsTypeActive(int tipoIdx)
+    {
+        switch (tipoIdx)
+        {
+            case 0: return toggle360.isOn;
+            case 1: return toggle180.isOn;
+            case 2: return toggle3603D.isOn;
+            case 3: return toggle1803D.isOn;
+            case 4: return toggleStandar.isOn;
+            case 5: return toggleStandar3D.isOn;
+            default: return false;
+        }
+    }
 
+    // Método para actualizar los botones según los filtros seleccionados
+    void FilterButtons()
+    {
+        foreach (Transform child in buttonContainer)
+        {
+            // Obtener el índice del botón en el contenedor
+            int index = child.GetSiblingIndex();
+            if (index >= 0 && index < videoList.Count)
+            {
+                VideoData videoData = videoList[index];
 
+                // Mostrar el botón solo si coincide el tipo y el tag actual (si hay uno)
+                bool isActive = IsTypeActive(videoData.arrayIdx) && (string.IsNullOrEmpty(currentTag) || videoData.videoTag == currentTag);
+                child.gameObject.SetActive(isActive);
+            }
+        }
+    }
 
+    // Función para filtrar los botones por el tag del video
+    public void FilterButtonsByTag(string tag)
+    {
+        currentTag = tag;  // Almacenar el tag actual
+        FilterButtons();   // Llamar a la función de filtrado general
+    }
 
     void OpenVideo(string url)
     {
-        //Aqui le pasamos la URL al Youtube
+        
     }
 }
