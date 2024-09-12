@@ -209,7 +209,10 @@ namespace LightShaft.Scripts
         public Material skyboxMaterial3D;
         public Material skyboxMaterialNormal;
         public Material skyboxMaterial3DSide;
+        public Material Material1803D;
         public Material Material180;
+        public RenderTexture RT180;
+        public RenderTexture RT360;
         private bool loadingFromServer = false;
 
         #region SERVER VARIABLES
@@ -319,7 +322,7 @@ namespace LightShaft.Scripts
                     IEnumerable<ExtractionInfo> downloadUrls = ExtractDownloadUrls(requestResult);
                     youtubeVideoInfos = GetVideoInfos(downloadUrls, videoTitle).ToList();
                     videoTitle = GetVideoTitle(requestResult);
-                    is360 = false;
+                    //is360 = false;
                     alreadyGotUrls = true;
                     UrlsLoaded();
                 }
@@ -1741,14 +1744,14 @@ namespace LightShaft.Scripts
             HideLoading();
 
             waitAudioSeek = true;
-            if (is360 || videoPlayer.targetTexture != null)
+            /*if (is360 || videoPlayer.targetTexture != null)
             {
                 if(videoPlayer.renderMode == VideoRenderMode.RenderTexture)
                 {
                     videoPlayer.targetTexture.width = (int)videoPlayer.width;
                     videoPlayer.targetTexture.height = (int)videoPlayer.height;
                 }
-            }
+            }*/
 
 
             if (videoQuality != YoutubeVideoQuality.STANDARD)

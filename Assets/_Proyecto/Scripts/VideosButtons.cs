@@ -1,6 +1,8 @@
 using System.Collections.Generic;
+using LightShaft.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class VideosButtons : MonoBehaviour
 {
@@ -38,6 +40,9 @@ public class VideosButtons : MonoBehaviour
     [Tooltip("Lista que contiene las miniaturas y URLs de los videos.")]
     public List<VideoData> videoList = new List<VideoData>(); // Lista de videos (miniaturas, URLs y tipos)
 
+    public YoutubePlayer youtube;
+    public YoutubeSettings youtubeSettings;
+
     [Header("Filtros de Tipo de Video")]
     public Toggle toggle360;
     public Toggle toggle180;
@@ -57,6 +62,9 @@ public class VideosButtons : MonoBehaviour
         toggle1803D.onValueChanged.AddListener(delegate { FilterButtons(); });
         toggleStandar.onValueChanged.AddListener(delegate { FilterButtons(); });
         toggleStandar3D.onValueChanged.AddListener(delegate { FilterButtons(); });
+
+        youtube = FindAnyObjectByType<YoutubePlayer>();
+        youtubeSettings = FindAnyObjectByType<YoutubeSettings>();
 
         GenerateButtons();
     }
@@ -109,7 +117,7 @@ public class VideosButtons : MonoBehaviour
             string url = video.videoUrl; // Capturar la URL en una variable local para evitar problemas de cierre
             string tag = video.videoTag; // Capturar el tag del video
 
-            button.onClick.AddListener(() => OpenVideo(url));
+            button.onClick.AddListener(() => OpenVideo(url, video.arrayIdx));
 
             // Desactivar el botón si el tipo de video no coincide con los toggles activos
             if (!IsTypeActive(video.arrayIdx))
@@ -159,8 +167,57 @@ public class VideosButtons : MonoBehaviour
         FilterButtons();   // Llamar a la función de filtrado general
     }
 
-    void OpenVideo(string url)
+    void OpenVideo(string url, int tipoIdx)
     {
-        
+        switch (tipoIdx)
+        {
+            case 0: // "360"
+                youtubeSettings.is180 = false;
+                youtubeSettings.is360 = true;
+                youtubeSettings.is3DLayoutVideo = false;
+                youtubeSettings.videoPlayer.targetTexture = youtubeSettings.RT360;
+                RenderSettings.skybox = youtubeSettings.skyboxMaterialNormal;
+                
+                break;
+            case 1: // "180"
+                youtubeSettings.is360 = false;
+                youtubeSettings.is180 = true;
+                youtubeSettings.is3DLayoutVideo = false;
+                youtubeSettings.videoPlayer.targetTexture = youtubeSettings.RT180;
+                RenderSettings.skybox = youtubeSettings.Material180;
+                break;
+            case 2: // "360 3D"
+                youtubeSettings.is360 = true;
+                youtubeSettings.is180 = false;
+                youtubeSettings.is3DLayoutVideo = true;
+                youtubeSettings.videoPlayer.targetTexture = youtubeSettings.RT360;
+                RenderSettings.skybox = youtubeSettings.skyboxMaterial3DSide;
+                break;
+            case 3: // "180 3D"
+                youtubeSettings.is360 = false;
+                youtubeSettings.is180 = true;
+                youtubeSettings.is3DLayoutVideo = true;
+                youtubeSettings.videoPlayer.targetTexture = youtubeSettings.RT180;
+                RenderSettings.skybox = youtubeSettings.Material1803D;
+                break;
+            case 4: // "Standar"
+                youtubeSettings.is360 = false;
+                youtubeSettings.is180 = false;
+                youtubeSettings.is3DLayoutVideo = false;
+                break;
+            case 5: // "Standar 3D"
+                youtubeSettings.is360 = false;
+                youtubeSettings.is180 = false;
+                youtubeSettings.is3DLayoutVideo = true;
+                break;
+            default:
+                youtubeSettings.is360 = false;
+                youtubeSettings.is180 = false;
+                youtubeSettings.is3DLayoutVideo = false;
+                break;
+        }
+
+        youtube.Play(url);
     }
+
 }

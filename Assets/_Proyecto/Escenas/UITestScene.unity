@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 54f733c95387bca4794bbbe2b1bb5320, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12150,109 +12150,26 @@ MonoBehaviour:
   videoList:
   - arrayIdx: 0
     Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
+    Miniaturas: {fileID: 21300000, guid: 8fa7a1f43be259d4d8da29941043e05b, type: 3}
+    videoUrl: https://www.youtube.com/watch?v=PnfJDgS9VZc
     videoTag: Sur
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: Centro
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: Norte
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: Sur
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: Centro
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: Norte
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: Sur
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: Sur
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: Centro
-  - arrayIdx: 0
+  - arrayIdx: 1
     Tipo: []
     Miniaturas: {fileID: 21300000, guid: 8fa7a1f43be259d4d8da29941043e05b, type: 3}
-    videoUrl: 
-    videoTag: Norte
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
+    videoUrl: https://www.youtube.com/watch?v=LYcSus4gGoQ
+    videoTag: Sur
+  - arrayIdx: 2
     Tipo: []
     Miniaturas: {fileID: 21300000, guid: 8fa7a1f43be259d4d8da29941043e05b, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
-  - arrayIdx: 0
-    Tipo: []
-    Miniaturas: {fileID: 21300000, guid: 3930e724ce87339449dd8664b2367466, type: 3}
-    videoUrl: 
-    videoTag: 
+    videoUrl: https://www.youtube.com/watch?v=rTM8vXtdIUA
+    videoTag: Sur
   - arrayIdx: 3
     Tipo: []
     Miniaturas: {fileID: 21300000, guid: 8fa7a1f43be259d4d8da29941043e05b, type: 3}
-    videoUrl: 
-    videoTag: 
+    videoUrl: https://www.youtube.com/watch?v=eBgp66uRwhM
+    videoTag: Sur
+  youtube: {fileID: 0}
+  youtubeSettings: {fileID: 0}
   toggle360: {fileID: 1120582111}
   toggle180: {fileID: 1648705859}
   toggle3603D: {fileID: 1794438427}
@@ -14243,7 +14160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1872389557
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14943,6 +14860,212 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004332684}
   m_CullTransparentMesh: 1
+--- !u!1001 &2061852234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 21022696662369177, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 745876593443113973, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 818251437186328783, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 818251437186328783, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 818251437186328783, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 972575911099807050, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: _collider
+      value: 
+      objectReference: {fileID: 2061852236}
+    - target: {fileID: 2392823168980644868, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392823168980644868, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951389165521775543, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_Name
+      value: Youtube360Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3011873483453317783, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_WaitForFirstFrame
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3011873483453317783, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_TargetMaterialRenderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080969195567219065, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4274106696371260187, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219722279685627238, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183947770611024219, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: loading
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7183947770611024219, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: speedSlider
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: RT180
+      value: 
+      objectReference: {fileID: 8400000, guid: c0f268a18b5834f4d891b1ba5d045855, type: 2}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: RT360
+      value: 
+      objectReference: {fileID: 8400000, guid: f7ec4cf9157d8f14fb04cc9231b74e90, type: 2}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: is180
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: is360
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: layout3d
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: youtubeUrl
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: Material180
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b301cc8526618146822b2c6fb392607, type: 2}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: _skipOnDrop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: videoFormat
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: videoQuality
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: Material1803D
+      value: 
+      objectReference: {fileID: 2100000, guid: dfa7937a29e543747b1bc66c297b360d, type: 2}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: autoPlayOnStart
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: is3DLayoutVideo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7931754940641045891, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: _selectSurface
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420882825216391322, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: _doubleSided
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977527987681298535, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2867776079392096300, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2061852236}
+  m_SourcePrefab: {fileID: 100100000, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+--- !u!1 &2061852235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2867776079392096300, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+  m_PrefabInstance: {fileID: 2061852234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2061852236
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061852235}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 1, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2064000067
 GameObject:
   m_ObjectHideFlags: 0
@@ -19799,3 +19922,4 @@ SceneRoots:
   - {fileID: 1640442061}
   - {fileID: 864044169}
   - {fileID: 1872389560}
+  - {fileID: 2061852234}
