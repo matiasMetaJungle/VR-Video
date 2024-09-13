@@ -175,18 +175,22 @@ public class VideosButtons : MonoBehaviour
                 youtubeSettings.is180 = false;
                 youtubeSettings.is360 = true;
                 youtubeSettings.is3DLayoutVideo = false;
-                
+                RenderSettings.skybox = youtubeSettings.skyboxMaterialNormal;
+
+
                 break;
             case 1: // "180"
                 youtubeSettings.is360 = false;
                 youtubeSettings.is180 = true;
                 youtubeSettings.is3DLayoutVideo = false;
+                RenderSettings.skybox = youtubeSettings.skyboxMaterial180normal;
 
                 break;
             case 2: // "360 3D"
                 youtubeSettings.is360 = true;
                 youtubeSettings.is180 = false;
                 youtubeSettings.is3DLayoutVideo = true;
+                RenderSettings.skybox = youtubeSettings.skyboxMaterial3DSide;
 
 
                 break;
@@ -194,21 +198,25 @@ public class VideosButtons : MonoBehaviour
                 youtubeSettings.is360 = false;
                 youtubeSettings.is180 = true;
                 youtubeSettings.is3DLayoutVideo = true;
+                RenderSettings.skybox = youtubeSettings.skyboxMaterial1803D;
                 break;
             case 4: // "Standar"
                 youtubeSettings.is360 = false;
                 youtubeSettings.is180 = false;
                 youtubeSettings.is3DLayoutVideo = false;
+                RenderSettings.skybox = youtubeSettings.skyboxMaterialNormal;
                 break;
             case 5: // "Standar 3D"
                 youtubeSettings.is360 = false;
                 youtubeSettings.is180 = false;
                 youtubeSettings.is3DLayoutVideo = true;
+                RenderSettings.skybox = youtubeSettings.skyboxMaterialNormal;
                 break;
             default:
                 youtubeSettings.is360 = false;
                 youtubeSettings.is180 = false;
                 youtubeSettings.is3DLayoutVideo = false;
+                RenderSettings.skybox = youtubeSettings.skyboxMaterialNormal;
                 break;
         }
 

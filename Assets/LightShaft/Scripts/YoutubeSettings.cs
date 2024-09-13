@@ -252,7 +252,7 @@ namespace LightShaft.Scripts
                 }
                 else if (layout3d == Layout3D.None)
                 {
-                    RenderSettings.skybox = (Material)Resources.Load("Materials/PanoramicSkybox3Dside") as Material;
+                    RenderSettings.skybox = (Material)Resources.Load("Materials/skyboxMaterial1803D") as Material;
                 }
             }
         }
