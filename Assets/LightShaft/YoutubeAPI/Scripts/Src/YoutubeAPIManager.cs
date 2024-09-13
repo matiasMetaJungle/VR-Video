@@ -25,7 +25,7 @@ public class YoutubeAPIManager : MonoBehaviour {
      * 
      * */
 
-    private const string APIKey = "AIzaSyBlcQ0OPmdg9taSF4DzshhqN9e0u0qmQ_w";
+    private const string APIKey = "AIzaSyCSh8NNjutCdJ3pAMJjWrGFbB8_onIMn1Y";
     /*AIzaSyCSh8NNjutCdJ3pAMJjWrGFbB8_onIMn1Y*/
         /*"AIzaSyAyctJVli2oEUoXZ8ta_4O0nKyknwXzvaw";*/
 

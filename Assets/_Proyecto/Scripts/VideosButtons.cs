@@ -117,7 +117,7 @@ public class VideosButtons : MonoBehaviour
             string url = video.videoUrl; // Capturar la URL en una variable local para evitar problemas de cierre
             string tag = video.videoTag; // Capturar el tag del video
 
-            button.onClick.AddListener(() => OpenVideo(url, video.arrayIdx));
+            //button.onClick.AddListener(() => OpenVideo(url, video.arrayIdx));
 
             // Desactivar el botón si el tipo de video no coincide con los toggles activos
             if (!IsTypeActive(video.arrayIdx))
@@ -175,30 +175,25 @@ public class VideosButtons : MonoBehaviour
                 youtubeSettings.is180 = false;
                 youtubeSettings.is360 = true;
                 youtubeSettings.is3DLayoutVideo = false;
-                youtubeSettings.videoPlayer.targetTexture = youtubeSettings.RT360;
-                RenderSettings.skybox = youtubeSettings.skyboxMaterialNormal;
                 
                 break;
             case 1: // "180"
                 youtubeSettings.is360 = false;
                 youtubeSettings.is180 = true;
                 youtubeSettings.is3DLayoutVideo = false;
-                youtubeSettings.videoPlayer.targetTexture = youtubeSettings.RT180;
-                RenderSettings.skybox = youtubeSettings.Material180;
+
                 break;
             case 2: // "360 3D"
                 youtubeSettings.is360 = true;
                 youtubeSettings.is180 = false;
                 youtubeSettings.is3DLayoutVideo = true;
-                youtubeSettings.videoPlayer.targetTexture = youtubeSettings.RT360;
-                RenderSettings.skybox = youtubeSettings.skyboxMaterial3DSide;
+
+
                 break;
             case 3: // "180 3D"
                 youtubeSettings.is360 = false;
                 youtubeSettings.is180 = true;
                 youtubeSettings.is3DLayoutVideo = true;
-                youtubeSettings.videoPlayer.targetTexture = youtubeSettings.RT180;
-                RenderSettings.skybox = youtubeSettings.Material1803D;
                 break;
             case 4: // "Standar"
                 youtubeSettings.is360 = false;

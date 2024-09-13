@@ -9059,21 +9059,37 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: layout3d
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
       propertyPath: youtubeUrl
       value: https://www.youtube.com/watch?v=uo-gv4AAk_s
       objectReference: {fileID: 0}
     - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
       propertyPath: videoQuality
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
       propertyPath: autoPlayOnStart
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: is3DLayoutVideo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
       propertyPath: startFromSecond
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: skyboxMaterial1803D
+      value: 
+      objectReference: {fileID: 2100000, guid: e8c0173e17245a44b96d8f87eb33d7b2, type: 2}
+    - target: {fileID: 7823950400097875147, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
+      propertyPath: skyboxMaterial180normal
+      value: 
+      objectReference: {fileID: 2100000, guid: 07aadd18f515acc44849fc23be0c1b9e, type: 2}
     - target: {fileID: 7931754940641045891, guid: 4ab09ac2a1cde48489ad9c462ddfdeae, type: 3}
       propertyPath: _selectSurface
       value: 
