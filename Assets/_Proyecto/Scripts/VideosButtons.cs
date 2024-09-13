@@ -117,7 +117,7 @@ public class VideosButtons : MonoBehaviour
             string url = video.videoUrl; // Capturar la URL en una variable local para evitar problemas de cierre
             string tag = video.videoTag; // Capturar el tag del video
 
-            //button.onClick.AddListener(() => OpenVideo(url, video.arrayIdx));
+            button.onClick.AddListener(() => OpenVideo(url, video.arrayIdx));
 
             // Desactivar el botón si el tipo de video no coincide con los toggles activos
             if (!IsTypeActive(video.arrayIdx))
