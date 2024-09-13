@@ -236,7 +236,7 @@ namespace LightShaft.Scripts
             {
                 if (layout3d == Layout3D.OverUnder)
                 {
-                    RenderSettings.skybox = (Material)Resources.Load("Materials/PanoramicSkybox3DOverUnder") as Material;
+                    RenderSettings.skybox = (Material)Resources.Load("Materials/skyboxMaterial3D") as Material;
                 }
                 else if (layout3d == Layout3D.SideBySide)
                 {
