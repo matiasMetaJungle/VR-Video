@@ -11,28 +11,37 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 42d1a99392b1bd24fa232546530d4603, type: 3}
   m_Parent: {fileID: 2100000, guid: 149e8623fe9819c44860d4ffbe0f677d, type: 2}
   m_ModifiedSerializedProperties: 26
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2976
-  stringTagMap: {}
-  disabledShaderPasses: []
+  m_CustomRenderQueue: 3002
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Opacity: 0.51
-    - _QueueOffset: -24
+    - _AlphaClip: 0
+    - _DstBlend: 10
+    - _Opacity: 0.64
+    - _QueueOffset: 2
     - _Smothness: 0.9
+    - _Surface: 1
+    - _ZWrite: 0
+    - _ZWriteControl: 2
     m_Colors:
-    - _Color: {r: 0.06755074, g: 0.2937539, b: 0.4339623, a: 0.48235294}
-    - _Tiling_1: {r: 3, g: 1, b: 0, a: 0}
-    - _Tiling_2: {r: 3, g: 1, b: 0, a: 0}
-    - _direction_1: {r: -0.03, g: 0.2, b: 0, a: 0}
+    - _Color: {r: 0.13363299, g: 0.49939218, b: 0.7264151, a: 0.46666667}
+    - _Tiling_1: {r: 15, g: 5, b: 0, a: 0}
+    - _Tiling_2: {r: 3, g: -0.03, b: 0, a: 0}
+    - _direction_1: {r: -0.03, g: 5.1, b: 0, a: 0}
     - _direction_2: {r: 0.03, g: 0.2, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2866793614021421429
