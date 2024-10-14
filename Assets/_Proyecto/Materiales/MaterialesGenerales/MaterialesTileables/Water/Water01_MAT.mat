@@ -122,7 +122,7 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _Opacity: 0.95
+    - _Opacity: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -140,8 +140,8 @@ Material:
     - _ZWriteControl: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.16340333, g: 0.6792453, b: 0.66650844, a: 0.48235294}
-    - _Color_1: {r: 0, g: 0.7619047, b: 1, a: 0}
+    - _Color: {r: 0.07208972, g: 0.5660378, b: 0.5541354, a: 0.48235294}
+    - _Color_1: {r: 0.25075653, g: 0.4116683, b: 0.46226418, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _Tiling: {r: 20, g: 20, b: 0, a: 0}
