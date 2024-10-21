@@ -38,7 +38,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 2
     m_Colors:
-    - _Color: {r: 0.13363299, g: 0.49939218, b: 0.7264151, a: 0.46666667}
+    - _Color: {r: 0.12758099, g: 0.5754717, b: 0.5497118, a: 0.46666667}
     - _Tiling_1: {r: 15, g: 5, b: 0, a: 0}
     - _Tiling_2: {r: 3, g: -0.03, b: 0, a: 0}
     - _direction_1: {r: -0.03, g: 5.1, b: 0, a: 0}
