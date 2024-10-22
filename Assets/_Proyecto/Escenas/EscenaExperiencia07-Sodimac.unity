@@ -44862,8 +44862,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1900821131}
+  - component: {fileID: 1900821134}
   - component: {fileID: 1900821133}
-  - component: {fileID: 1900821132}
   m_Layer: 0
   m_Name: Locomotion
   m_TagString: Untagged
@@ -44886,7 +44886,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 59734458}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1900821132
+--- !u!114 &1900821133
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44914,7 +44914,7 @@ MonoBehaviour:
   EnableLinearMovement: 1
   EnableRotation: 1
   RotationEitherThumbstick: 0
---- !u!143 &1900821133
+--- !u!143 &1900821134
 CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
