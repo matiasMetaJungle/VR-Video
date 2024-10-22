@@ -7,6 +7,8 @@ public class MenuHand : MonoBehaviour
     public GameObject MenuMano;
     bool isMenuActivo = false;
 
+    public GameObject LocalAvatar;
+
 
     // Update is called once per frame
     void Update()
@@ -15,6 +17,18 @@ public class MenuHand : MonoBehaviour
         {
             isMenuActivo = !isMenuActivo;
             MenuMano.SetActive(isMenuActivo);
-        }   
+        }
+
+        if(LocalAvatar == null) 
+        {
+            LocalAvatar = GameObject.Find("LocalAvatar");
+
+            if (LocalAvatar != null)
+            {
+                LocalAvatar.transform.SetParent(this.transform);
+            }
+
+
+        }
     }
 }
