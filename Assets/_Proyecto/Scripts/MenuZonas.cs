@@ -88,6 +88,7 @@ public class MenuZonas : MonoBehaviour
             {
                 descripcionVideo.Descripcion = contenedorVideos.DescripcionesBotones[i];
                 descripcionVideo.Miniatura = contenedorVideos.imagenesBotones[i];
+                descripcionVideo.Zona = contenedorVideos.zonaDescripcion[i];
             }
         }
     }

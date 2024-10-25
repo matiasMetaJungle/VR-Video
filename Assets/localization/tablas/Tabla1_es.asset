@@ -19,19 +19,99 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 1
-    m_Localized: Descripcion
+    m_Localized: "Descripci\xF3n"
     m_Metadata:
       m_Items: []
   - m_Id: 2
-    m_Localized: prueba para ver si funciona
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 3
-    m_Localized: Hello
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 4
-    m_Localized: Hello world
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: "La Regi\xF3n de Arica y Parinacota, en el norte de Chile, limita
+      con Per\xFA y Bolivia. Su capital, Arica, es una ciudad costera conocida por
+      su clima c\xE1lido y playas. La regi\xF3n presenta paisajes diversos que incluyen
+      desierto, valles, altiplanos y volcanes, y el Parque Nacional Lauca alberga
+      fauna aut\xF3ctona. Su cultura refleja tradiciones aymaras y un rico legado
+      precolombino e incaico."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: "La regi\xF3n de Tarapac\xE1, en el norte de Chile, es una zona
+      \xE1rida del desierto de Atacama con costas en el oc\xE9ano Pac\xEDfico. Su
+      econom\xEDa se basa en la miner\xEDa de cobre y nitrato, adem\xE1s de la pesca
+      y el turismo. Iquique, su principal ciudad, destaca por su diversidad cultural,
+      festivales, gastronom\xEDa variada y atractivos tur\xEDsticos como playas y
+      el Parque Nacional Salar del Huasco."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: "La Regi\xF3n de Antofagasta, en el norte de Chile, es famosa por
+      el desierto de Atacama, el m\xE1s \xE1rido del mundo. Su capital, Antofagasta,
+      es un puerto hist\xF3rico con importantes yacimientos de cobre, como la mina
+      Chuquicamata. Adem\xE1s de su relevancia minera, la regi\xF3n ofrece paisajes
+      impresionantes, como el Valle de la Luna y salares, y sitios arqueol\xF3gicos
+      de antiguas civilizaciones atacame\xF1as."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: "La Regi\xF3n de Coquimbo, en el norte chico de Chile, tiene un
+      clima semi\xE1rido y valles f\xE9rtiles como el Valle de Elqui, famoso por
+      el pisco y la astronom\xEDa. Su capital, La Serena, destaca por su arquitectura
+      colonial y playas. La regi\xF3n alberga iglesias coloniales y la Reserva Nacional
+      Ping\xFCino de Humboldt, que protege fauna marina, fusionando tradiciones agr\xEDcolas
+      y pesqueras con el turismo astron\xF3mico."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: "La Regi\xF3n de Atacama, en el norte de Chile, es famosa por su
+      desierto, el m\xE1s seco del mundo. Su capital, Copiap\xF3, es un importante
+      centro minero con yacimientos de cobre y oro. La regi\xF3n ofrece impresionantes
+      paisajes naturales, como el Valle de la Luna y el salar de Atacama, adem\xE1s
+      de sitios arqueol\xF3gicos que reflejan la rica herencia cultural de las antiguas
+      civilizaciones atacame\xF1as."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: "La Regi\xF3n de Valpara\xEDso, en la costa central de Chile, es
+      famosa por su puerto y su historia cultural. Su capital, Valpara\xEDso, destaca
+      por su arquitectura colorida y cerros con vistas al oc\xE9ano. La regi\xF3n
+      incluye la casa de Pablo Neruda, la Playa de Re\xF1aca y el Parque Nacional
+      La Campana, adem\xE1s de ser un importante centro de turismo y gastronom\xEDa,
+      conocido por su vino y mariscos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: "La Regi\xF3n Metropolitana de Chile, con Santiago como su capital,
+      es el centro pol\xEDtico, econ\xF3mico y cultural del pa\xEDs. Santiago ofrece
+      una vida urbana vibrante con museos y gastronom\xEDa variada. La regi\xF3n
+      incluye la cordillera de los Andes y es un importante centro educativo e innovador,
+      adem\xE1s de albergar eventos culturales que reflejan su diversidad."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: "La Regi\xF3n de O'Higgins, en el centro de Chile, destaca por su
+      agricultura, especialmente viticultura y fruticultura. Su capital, Rancagua,
+      es conocida por su legado hist\xF3rico, incluida la Batalla de Rancagua. La
+      regi\xF3n ofrece paisajes variados y atractivos como el Parque Natural R\xEDo
+      Los Cipreses, y es un importante centro cultural con festivales y tradiciones
+      locales."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Localized: "La Regi\xF3n del Maule, en el centro-sur de Chile, es famosa por
+      su agricultura, especialmente vino y frutas. Su capital, Talca, es un importante
+      centro cultural y econ\xF3mico. La regi\xF3n presenta paisajes variados, con
+      valles f\xE9rtiles y la cordillera de los Andes, y atrae visitantes con su
+      historia, tradiciones folcl\xF3ricas y atractivos naturales como el Parque
+      Nacional Radal Siete Tazas."
     m_Metadata:
       m_Items: []
   references:

@@ -7,4 +7,5 @@ public class ContenedorVideos : MonoBehaviour
     public GameObject[] botonesPrefabs;
     public Sprite[] imagenesBotones;
     public string[] DescripcionesBotones;
+    public string[] zonaDescripcion;
 }

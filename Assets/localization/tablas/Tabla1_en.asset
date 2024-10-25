@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 1
-    m_Localized: description
+    m_Localized: Description
     m_Metadata:
       m_Items: []
   - m_Id: 2
-    m_Localized: test to see if it works
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 10
@@ -31,11 +31,87 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3
-    m_Localized: Hola
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 4
-    m_Localized: hola mundo
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: The Arica and Parinacota Region, in northern Chile, borders Peru
+      and Bolivia. Its capital, Arica, is a coastal city known for its warm climate
+      and beaches. The region features diverse landscapes, including desert, valleys,
+      high plains, and volcanoes, and Lauca National Park is home to native wildlife.
+      Its culture reflects Aymara traditions and a rich pre-Columbian and Incan heritage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: "The Tarapac\xE1 region, in northern Chile, is an arid area of the
+      Atacama Desert with coastlines along the Pacific Ocean, fertile valleys, and
+      mountains. Its economy is based on mining, especially copper and nitrate, as
+      well as fishing and tourism. Iquique is the cultural and economic hub of the
+      region, characterized by its diverse population, festivals, varied cuisine,
+      and tourist attractions like its beaches and the Salar del Huasco National
+      Park."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: "The Antofagasta Region, in northern Chile, is famous for the Atacama
+      Desert, the driest in the world. Its capital, Antofagasta, is a historic port
+      with significant copper deposits, including the Chuquicamata mine. In addition
+      to its mining importance, the region offers stunning landscapes such as the
+      Valley of the Moon and salt flats, as well as archaeological sites of ancient
+      Atacame\xF1a civilizations."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: The Coquimbo Region, in northern central Chile, has a semi-arid
+      climate and fertile valleys like the Elqui Valley, known for pisco and astronomy.
+      Its capital, La Serena, is famous for its colonial architecture and beaches.
+      The region features colonial churches and the Humboldt Penguin National Reserve,
+      which protects marine wildlife while blending agricultural traditions with
+      astronomical tourism.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: "The Atacama Region, in northern Chile, is famous for its desert,
+      the driest in the world. Its capital, Copiap\xF3, is an important mining center
+      with deposits of copper and gold. The region features stunning natural landscapes
+      like the Valley of the Moon and the Atacama Salt Flat, as well as archaeological
+      sites that reflect the rich cultural heritage of ancient Atacame\xF1a civilizations."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: "The Valpara\xEDso Region, in central coastal Chile, is famous for
+      its port and cultural history. Its capital, Valpara\xEDso, is known for its
+      colorful architecture and hills with ocean views. The region includes Pablo
+      Neruda's house, Re\xF1aca Beach, and La Campana National Park, and it is also
+      an important center for tourism and gastronomy, renowned for its wine and seafood."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: The Metropolitan Region of Chile, with Santiago as its capital,
+      is the country's political, economic, and cultural center. Santiago features
+      a vibrant urban life with various museums and cuisine. The region includes
+      the Andes mountains and is an important educational and innovative hub, hosting
+      cultural events that reflect its diversity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: "The O'Higgins Region, in central Chile, is known for its agriculture,
+      especially viticulture and fruit production. Its capital, Rancagua, is famous
+      for its historical legacy, including the Battle of Rancagua. The region features
+      varied landscapes and attractions like the R\xEDo Los Cipreses Natural Park,
+      and it serves as an important cultural center with local festivals and traditions."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Localized: The Maule Region, in south-central Chile, is famous for its agriculture,
+      especially wine and fruit production. Its capital, Talca, is an important cultural
+      and economic center. The region features varied landscapes, including fertile
+      valleys and the Andes mountains, attracting visitors with its history, folk
+      traditions, and natural attractions like the Radal Siete Tazas National Park.
     m_Metadata:
       m_Items: []
   references:

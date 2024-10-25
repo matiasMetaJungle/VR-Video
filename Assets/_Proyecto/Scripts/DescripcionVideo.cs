@@ -16,14 +16,13 @@ public class DescripcionVideo : MonoBehaviour
     public string Descripcion;
     public Sprite Miniatura;
 
-    private void Start()
-    {
-        Uiposicion = GameObject.Find("UI Play Video_Descripcion");
-    }
+    public string Zona;
+
 
     public void IntanciarUI()
     {
-        
+        Uiposicion = GameObject.Find(Zona);
+
         // Borra todos los hijos de Uiposicion
         foreach (Transform child in Uiposicion.transform)
         {
