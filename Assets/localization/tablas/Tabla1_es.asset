@@ -114,6 +114,68 @@ MonoBehaviour:
       Nacional Radal Siete Tazas."
     m_Metadata:
       m_Items: []
+  - m_Id: 20
+    m_Localized: "La Regi\xF3n de \xD1uble, en el sur de Chile, destaca por su agricultura,
+      especialmente en cerezas, ar\xE1ndanos y vino. Su capital, Chill\xE1n, es famosa
+      por su mercado y termas. La regi\xF3n ofrece paisajes variados, con monta\xF1as
+      y valles f\xE9rtiles, y atractivos naturales como el Parque Nacional Laguna
+      del Laja, ideales para el ecoturismo y las tradiciones culturales."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: "La Regi\xF3n del Biob\xEDo, en el sur de Chile, es conocida por
+      su diversidad natural y econ\xF3mica. Su capital, Concepci\xF3n, es un centro
+      cultural y educativo. La regi\xF3n destaca en producci\xF3n de madera, agricultura
+      y pesca. Ofrece paisajes variados, incluyendo la cordillera de los Andes y
+      la costa del oc\xE9ano Pac\xEDfico, adem\xE1s de atractivos como el Parque
+      Nacional Nahuelbuta y sus playas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Localized: "La Regi\xF3n de La Araucan\xEDa, en el sur de Chile, es conocida
+      por su belleza natural y cultura mapuche. Su capital, Temuco, es un centro
+      cultural y comercial. La regi\xF3n destaca por sus lagos, volcanes y parques
+      nacionales como Villarrica, y es famosa por su producci\xF3n agr\xEDcola de
+      berries y productos forestales, ofreciendo actividades al aire libre como senderismo
+      y pesca."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Localized: "La Regi\xF3n de Los R\xEDos, en el sur de Chile, es conocida por
+      su belleza natural, con r\xEDos, lagos y bosques. Su capital, Valdivia, destaca
+      por su historia e influencia alemana. La regi\xF3n se centra en la producci\xF3n
+      agr\xEDcola, especialmente de manzanas y kiwis. Ofrece actividades al aire
+      libre como senderismo y pesca, y cuenta con atractivos como el Parque Nacional
+      Puyehue y la Reserva Biol\xF3gica Huilo Huilo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24
+    m_Localized: "La Regi\xF3n de Los Lagos, en el sur de Chile, es conocida por
+      su belleza natural, con lagos y volcanes. Su capital, Puerto Montt, es un importante
+      puerto. Destaca en la producci\xF3n de salm\xF3n y tradiciones alemanas. Ofrece
+      actividades al aire libre, como pesca y senderismo, y cuenta con atractivos
+      como el Parque Nacional Vicente P\xE9rez Rosales y la isla de Chilo\xE9, famosa
+      por su cultura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25
+    m_Localized: "La Regi\xF3n de Ays\xE9n, en el sur de Chile, es famosa por sus
+      paisajes y naturaleza salvaje. Su capital, Coyhaique, es un centro cultural.
+      La regi\xF3n destaca por fiordos, glaciares y monta\xF1as, y es ideal para
+      actividades al aire libre como senderismo y pesca. Entre sus atractivos se
+      encuentran el Parque Nacional Queulat y el Campo de Hielo Norte, lo que realza
+      su encanto remoto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Localized: "La Regi\xF3n de Magallanes y de la Ant\xE1rtica Chilena, en el
+      sur de Chile, es famosa por su geograf\xEDa impresionante y diversidad natural.
+      Punta Arenas, su capital, es un puerto clave y acceso a la Ant\xE1rtida. La
+      regi\xF3n cuenta con monta\xF1as, glaciares y fauna como ping\xFCinos. Es ideal
+      para actividades al aire libre en el Parque Nacional Torres del Paine y tiene
+      un rico legado cultural europeo."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

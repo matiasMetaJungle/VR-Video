@@ -114,6 +114,64 @@ MonoBehaviour:
       traditions, and natural attractions like the Radal Siete Tazas National Park.
     m_Metadata:
       m_Items: []
+  - m_Id: 20
+    m_Localized: "The \xD1uble Region, in southern Chile, is known for its agriculture,
+      particularly cherries, blueberries, and wine. Its capital, Chill\xE1n, is famous
+      for its market and hot springs. The region features varied landscapes, including
+      mountains and fertile valleys, and natural attractions like the Laguna del
+      Laja National Park, making it ideal for ecotourism and cultural traditions."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: "The Biob\xEDo Region, in southern Chile, is known for its natural
+      and economic diversity. Its capital, Concepci\xF3n, is a cultural and educational
+      center. The region excels in wood production, agriculture, and fishing. It
+      offers varied landscapes, including the Andes mountains and the Pacific coastline,
+      as well as attractions like Nahuelbuta National Park and its beaches."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Localized: "The Araucan\xEDa Region, in southern Chile, is known for its natural
+      beauty and Mapuche culture. Its capital, Temuco, is a cultural and commercial
+      center. The region features lakes, volcanoes, and national parks like Villarrica,
+      and it is famous for its agricultural production of berries and forest products,
+      offering outdoor activities such as hiking and fishing."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Localized: "The Los R\xEDos Region, in southern Chile, is known for its natural
+      beauty, featuring rivers, lakes, and forests. Its capital, Valdivia, is noted
+      for its history and German influence. The region focuses on agricultural production,
+      especially apples and kiwis. It offers outdoor activities such as hiking and
+      fishing, with attractions like Puyehue National Park and the Huilo Huilo Biological
+      Reserve."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24
+    m_Localized: "The Los Lagos Region, in southern Chile, is known for its natural
+      beauty, featuring lakes and volcanoes. Its capital, Puerto Montt, is an important
+      port. The region excels in salmon production and German traditions. It offers
+      outdoor activities like fishing and hiking, and has attractions such as Vicente
+      P\xE9rez Rosales National Park and Chilo\xE9 Island, famous for its culture."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25
+    m_Localized: "The Ays\xE9n Region, in southern Chile, is famous for its landscapes
+      and wild nature. Its capital, Coyhaique, is a cultural center. The region is
+      known for its fjords, glaciers, and mountains, making it ideal for outdoor
+      activities like hiking and fishing. Attractions include Queulat National Park
+      and the Northern Ice Field, enhancing its remote charm."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Localized: The Magallanes and Chilean Antarctica Region, in southern Chile,
+      is famous for its stunning geography and natural diversity. Punta Arenas, its
+      capital, is a key port and access point to Antarctica. The region features
+      mountains, glaciers, and wildlife such as penguins. It is ideal for outdoor
+      activities in Torres del Paine National Park and has a rich European cultural
+      heritage.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
