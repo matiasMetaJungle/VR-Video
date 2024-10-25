@@ -19,11 +19,19 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 1
-    m_Localized: "Descripci\xF3n"
+    m_Localized: Descripcion
     m_Metadata:
       m_Items: []
   - m_Id: 2
     m_Localized: prueba para ver si funciona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Localized: Hello
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: Hello world
     m_Metadata:
       m_Items: []
   references:

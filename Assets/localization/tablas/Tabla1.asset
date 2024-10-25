@@ -30,8 +30,7 @@ MonoBehaviour:
         - rid: 803304786593579034
         - rid: 803304786593579035
         - rid: 803304786593579036
-        m_ConnectedFile: "C:/Users/arias/Downloads/Hoja de c\xE1lculo sin t\xEDtulo
-          - Hoja 1.csv"
+        m_ConnectedFile: C:/Users/arias/Downloads/Tabla traduccion  - Hoja 1.csv
     - rid: 803304786593579034
       type: {class: KeyIdColumns, ns: UnityEditor.Localization.Plugins.CSV.Columns, asm: Unity.Localization.Editor}
       data:

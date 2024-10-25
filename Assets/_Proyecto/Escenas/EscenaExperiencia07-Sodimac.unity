@@ -24292,11 +24292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca557122ccbf7fa4998a6f47a0a41642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Teleport:
-  - {fileID: 0}
-  - {fileID: 0}
-  Controller: {fileID: 0}
-  PlayerController: {fileID: 0}
 --- !u!114 &818434530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25191,8 +25186,8 @@ MonoBehaviour:
   - {fileID: 1283595445, guid: f77bd967f468c8b408c5227821fca8b4, type: 3}
   - {fileID: 1405269924, guid: f77bd967f468c8b408c5227821fca8b4, type: 3}
   DescripcionesBotones:
-  - Torres Del Paine
-  - Cerro
+  - A1
+  - A2
 --- !u!1 &888318535
 GameObject:
   m_ObjectHideFlags: 0

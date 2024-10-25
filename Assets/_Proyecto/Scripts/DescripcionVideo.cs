@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization.Components;
 using UnityEngine.UI;
 
 public class DescripcionVideo : MonoBehaviour
@@ -41,7 +42,15 @@ public class DescripcionVideo : MonoBehaviour
         {
             if (texto.name == "TextoDescripcion")
             {
-                texto.text = Descripcion;
+                // Cambiar la clave de LocalizeStringEvent en el nuevo texto
+                LocalizeStringEvent nuevoLocalizeStringEvent = texto.GetComponent<LocalizeStringEvent>();
+                if (nuevoLocalizeStringEvent != null)
+                {
+                    // Cambia la clave de entrada de localización
+                    nuevoLocalizeStringEvent.StringReference.SetReference("Tabla1", Descripcion);
+                    // Fuerza la actualización del texto localizado
+                    nuevoLocalizeStringEvent.RefreshString();
+                }
                 break;
             }
         }
@@ -60,6 +69,5 @@ public class DescripcionVideo : MonoBehaviour
             }
         }
     }
-
 
 }
